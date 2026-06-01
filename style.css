@@ -23,7 +23,7 @@
 .box_container{
     background-color: var(--Primary-color);
     color: var(--Inside-font-color);
-    width: 25%;
+    width: 70%;
     margin: auto;
     padding: 1%;
     border-radius: 5%;
@@ -68,7 +68,7 @@
 }
 .main_star_box{
     margin: auto auto;
-    width: 25%;
+    width: 60%;
     border-radius: 3%;
     background-color: rgb(203, 199, 199);
 }
@@ -80,5 +80,20 @@
     justify-content: space-around;
 
 }
-    
+
+    .box_container{
+    background-color: var(--Primary-color);
+    color: var(--Inside-font-color);
+    width: 25%;
+    margin: auto;
+    padding: 1%;
+    border-radius: 5%;
+    }
+
+    .main_star_box{
+    margin: auto auto;
+    width: 30%;
+    border-radius: 3%;
+    background-color: rgb(203, 199, 199);
+}
 }
