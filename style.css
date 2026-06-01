@@ -1,0 +1,84 @@
+:root{
+     --Primary-color: rgb(84, 6, 84);
+     --Font-color:rgb(95, 18, 95);
+     --Inside-font-color: rgb(214, 212, 212);
+     --Small-box-color : whitesmoke;
+     --first-font-weight: 15em;
+     --second-font-weight : 5em;
+     
+}
+
+
+.second_flex{
+    display: flex;
+    gap: 2px;
+}
+
+.Text{
+   
+    padding: 2%;
+   padding-left: 13%;
+    
+}
+.box_container{
+    background-color: var(--Primary-color);
+    color: var(--Inside-font-color);
+    width: 25%;
+    margin: auto;
+    padding: 1%;
+    border-radius: 5%;
+}
+.image_box{
+    width: 15%;
+    border-radius: 50%;
+    margin: 3% auto auto 3%;
+}
+.star{
+    margin: 8%;
+    padding: 1%;
+    width: 30%;
+    height: 30%;
+}
+.star_box{
+    margin: auto; 
+    margin-left: 20%; 
+    padding: auto;
+    width: 25%;
+    display: flex;
+    gap: 5px;
+    text-align: center;
+}
+.Title{
+   text-align: center;
+   margin-top: 3%;
+    color: var(--Font-color);
+     font-weight: 900;
+}
+#Second_box{
+    margin-top: 8%;
+}
+
+#Third_box{
+    margin-top: 12%;
+
+}
+
+.name{
+    color: rgb(199, 81, 199);
+}
+.main_star_box{
+    margin: auto auto;
+    width: 25%;
+    border-radius: 3%;
+    background-color: rgb(203, 199, 199);
+}
+
+@media (min-width:600px) {
+
+    .main_box{
+    display: flex;
+    justify-content: space-around;
+
+}
+    
+}
